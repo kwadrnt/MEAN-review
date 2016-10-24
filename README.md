@@ -117,6 +117,6 @@ On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7b
 
 ## Lab
 
-Working with a partner, choose one of your demos that would benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.
+Working in teams of 3, choose one of your demos that might benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.  When you have it running, add a breif readme that lists all the contributors and push it to GitHub. 
 
 Please feel free to reference previous notes.   

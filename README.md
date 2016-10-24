@@ -36,17 +36,17 @@ What does MEAN mean? Without using any other resources, write down what you know
 
 **AngularJS**
 
-**Node**
+**Node.js**
 
 Why do we use the MEAN stack?
 
-### What is MongoDB/(Mongoose)?
+### What is MongoDB? What is Mongoose?
 
 * `MongoDB` is a no-SQL database.
 * Generally we will not be interacting _directly_ with MongoDB, instead we'll be working with `mongoose`.
 * `Mongoose` is a library or "wrapper" that gives us a bunch of convenience methods for working with MongoDB records (kind of like jQuery's convenience methods for manipulating the DOM).
 
-### What is Express JS?
+### What is Express?
 - Express is a framework built on top of Node.js that makes development of web servers more intuitive and quicker.
 - Express allows us to easily set up routes that will trigger actions such as rendering pages or returning JSON.
 
@@ -62,7 +62,7 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 * "Angular simplifies application development by presenting a higher level of abstraction to the developer"
 * "Not every app is a good fit for Angular. Angular was built with the CRUD application in mind."
 
-### What is Node?
+### What is Node.js?
 - Node.js is a webserver that operates on the V8 Google Chrome JavaScript runtime, allowing you to write server-side code in JavaScript.
 - Node.js provides the ability to handle requests and issue responses.
 - It is fast.
@@ -72,35 +72,51 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 
 # `tunely-angular` app
 
-Let's check out the [`tunely-angular` sprint 5 solutions branch](https://github.com/SF-WDI-LABS/tunely-angular/blob/master/docs/sprint5.md) as a subject for our review study.
+Let's review:
+
+- the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-31/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
+- the Angular [book app](https://github.com/sf-wdi-31/angular-services-training) and its solution branches
+- the Angular [Cards against Assembly](https://github.com/sf-wdi-31/angular-custom-directives) and its solution
+
 
 This is a fully functional MEAN stack app.You'll be assigned a piece from within this list:
 
-* `public/scripts/app.js`
-* `public/scripts/controllers/AlbumsIndexController.js`
-* `public/scripts/controllers/AlbumsShowController.js`
-* `views/templates`
-* `views/index.html`
-* `server.js`
-* `controllers/albumsController.js`
-* `controllers/albumsSongsController.js`
-* `controllers/apiController.js`
-* `controllers/index.js`
-* `models/album.js`
-* `models/index.js`
-* `package.json` and `bower.json`
-* `seed.js`
+* public/scripts/app.js
+
+* public/scripts/controllers/AlbumsIndexController.js
+
+* public/scripts/controllers/AlbumsShowController.js
+
+* views/templates
+
+* views/index.html
+
+* server.js
+
+* package.json and bower.json
+
+* Bounty: AJAX call
+
+* Bounty: client-side routing
+
+* Bounty: dependency injection
+
+* Bounty: custom directive
+
+* Bounty: service
+
 
 Let's investigate these pieces and answer the following questions:
 
 1. Is this server-side code or client side code? How do you know?
 1. What parts of the MEAN stack does this represent? What technologies are present here (HTML, CSS, middleware, JavaScript, etc.)?
-1.  What is this piece of the application (file or directory) responsible for?
+1. What is this piece of the application (file or directory) responsible for?
+1. If this file was also in the non-Angular version, which parts are specific to Angular?
 1. What lines of code are most important for understanding how this works?
 1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 
-Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/1TqeVF1LPKv5I3X-FD157eYtVCbFEMim3Svg9TvBjhRQ/edit?usp=sharing). We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
+Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing). We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
 
 
 # Writing some Angular
@@ -119,13 +135,11 @@ Write a page to perform an example of two of the following angular directives.
 
 [Reviewing `tunely-angular` sprint 1](https://github.com/SF-WDI-LABS/tunely-angular/blob/master/docs/sprint1.md) may help to get your example set up.
 
-On the [google doc](https://docs.google.com/document/d/1TqeVF1LPKv5I3X-FD157eYtVCbFEMim3Svg9TvBjhRQ/edit), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
+On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
 
 
 ## Lab
 
-The [MEAN stack lab/mini-project](https://github.com/SF-WDI-LABS/mean-lab)
+Working with a partner, choose one of your demos that would benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.
 
-## Resources:
-* [Angular introduction notes](https://github.com/SF-WDI-LABS/shared_modules/tree/master/03-angular-mean/intro-angular/27-28)
-* [An intro to Mongo/Express/Node from WDI25](https://github.com/SF-WDI-LABS/shared_modules/tree/master/03-angular-mean/intro-mean/25)
+Please feel free to reference previous notes.   

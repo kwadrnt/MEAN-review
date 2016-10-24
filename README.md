@@ -1,56 +1,36 @@
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> MEAN stack review
 
-| **Learning Objectives** |
-| :---- |
-| *Students will be able to:* |
-| Revisit the MEAN stack and explain the role of each technology within that stack. |
-| Give detailed account of the purpose of the different files and folders that make up a MEAN app. |
-| Revisit Angular syntax and write examples of important built-in directives. |
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
 
-#### Consider the following statement
+Remember Angular?  How does it fit in with an express back end? What if you want to build a MEAN app for project 3?  Let's hit refresh on some skills and knowledge. 
 
-*Ruby on Rails is superior to the MEAN stack because Ruby is a much more beautiful
-and feature-rich language than Javascript. Rails is designed to expedite
-development time because it has built in structures to facilitate CRUD and
-many other common web development tasks.*
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
 
-Take two minutes to write down your reaction.
+- Explain how to use an Angular front end with a MEN back end. 
+- Explain basic Angular setup and write examples of important built-in directives.
+- Identify key Angular concepts: directives, controllers, templates, services, client-side routing.
 
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
 
-#### Now, consider the following statement
+- Build a full application in MEN, MEAN, and Ruby on Rails stacks.
+- Locate course materials to help use technologies we haven't talked about in a long time.
+- Give a detailed walkthrough of a MEN stack application.
 
-*The MEAN stack is better than Rails because it is all JavaScript, the native language of the web.
-Node's built in V8 JS engine makes the MEAN stack app far faster than a Ruby on
-Rails app. Angular creates dynamic, single page apps which are more intuitive to write
-than the `.erb` style templating of Rails apps.*
-
-Take two minutes to write down your reaction.
 
 
 ## MEAN
-What does MEAN mean? Without using any other resources, write down what you know about each of the following:
 
-**MongoDB**/(Mongoose)
+* What does MEAN mean?   
+* How is it different from MEN?  
+* Why do we use the MEAN stack?
 
-**Express**
-
-**AngularJS**
-
-**Node.js**
-
-Why do we use the MEAN stack?
-
-### What is MongoDB? What is Mongoose?
-
-* `MongoDB` is a no-SQL database.
-* Generally we will not be interacting _directly_ with MongoDB, instead we'll be working with `mongoose`.
-* `Mongoose` is a library or "wrapper" that gives us a bunch of convenience methods for working with MongoDB records (kind of like jQuery's convenience methods for manipulating the DOM).
-
-### What is Express?
-- Express is a framework built on top of Node.js that makes development of web servers more intuitive and quicker.
-- Express allows us to easily set up routes that will trigger actions such as rendering pages or returning JSON.
-
-### What is AngularJS
+### What is AngularJS?
 
 From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduction):
 
@@ -61,12 +41,6 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 * Comes with "Data-binding, basic templating directives, form validation, routing, deep-linking, reusable components and dependency injection"
 * "Angular simplifies application development by presenting a higher level of abstraction to the developer"
 * "Not every app is a good fit for Angular. Angular was built with the CRUD application in mind."
-
-### What is Node.js?
-- Node.js is a webserver that operates on the V8 Google Chrome JavaScript runtime, allowing you to write server-side code in JavaScript.
-- Node.js provides the ability to handle requests and issue responses.
-- It is fast.
-- It is fast largely because it is asynchronous, meaning code can run in parallel without "blocking" the call stack (the list of other concurrent commands).
 
 
 
@@ -116,12 +90,15 @@ Let's investigate these pieces and answer the following questions:
 1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 
-Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing). We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does.
+Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing). 
+
+We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does... **BUT** this time we encourage you to engage an extra part of your brain as you explain. Drawing something, act something out, or invent a rhyme or jingle!
 
 
-# Writing some Angular
 
-### What is a directive?
+### Writing Angular
+
+#### What is a directive?
 
 Write a page to perform an example of two of the following angular directives.
 
@@ -133,7 +110,7 @@ Write a page to perform an example of two of the following angular directives.
 * `ng-href`
 * `ng-src`
 
-[Reviewing `tunely-angular` sprint 1](https://github.com/SF-WDI-LABS/tunely-angular/blob/master/docs/sprint1.md) may help to get your example set up.
+[Reviewing `tunely-angular` sprint 1](https://github.com/SF-WDI-31/tunely-angular/blob/master/docs/sprint1.md) may help to get your example set up.
 
 On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
 

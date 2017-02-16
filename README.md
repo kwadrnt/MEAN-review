@@ -4,7 +4,7 @@
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Remember Angular?  How does it fit in with an express back end? What if you want to build a MEAN app for project 3?  Let's hit refresh on some skills and knowledge.
+We want you to choose the best stack for your final project. Using a JavaScript framework like AngularJS has a host of benefits, but we want you to revisit it before deciding if it's right (or wrong) for you.  Returning to a technology you learned and used in the past can be difficult! Reviewing is likely to solidify your understanding and help you make connections to any frameworks you learned since.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
@@ -64,9 +64,6 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 Let's review:
 
 - the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-34/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
-- the Angular [book app](https://github.com/sf-wdi-34/angular-services-training) and its solution branches
-- the Angular [Cards against Assembly](https://github.com/sf-wdi-34/angular-custom-directives) and its solution
-
 
 This is a fully functional MEAN stack app.You'll be assigned a piece from within this list:
 
@@ -129,9 +126,75 @@ Write a page to perform an example of two of the following angular directives.
 
 On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
 
+## Terminology and Concepts
+
+First, without resources, write your own working definition of each of these five concepts. In which files do they live? Why is it part of Angular?
+
+* directives
+* controllers
+* templates
+* services
+* client-side routing
+
+Now, with whatever resources you'd like, work with a partner to refine your definitions to build a more complete picture.
+
+How did your original definitions match with your more refined definitions?
 
 ## Lab
 
-Working in teams of 3, choose one of your demos that might benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.  When you have it running, add a brief readme that lists all the contributors and push it to GitHub.
+Working in teams of 2 or 3, choose one of the three following ideas and build the Angular portion of it.
 
-Please feel free to reference previous notes.   
+Follow this suggested "micro-sprint" structure:
+
+1. Build a "first-draft" version of the view and connect it to a working controller. Ensure that variables in the controller can display on the page.
+2. In the controller, create an empty object that the form inputs will `ng-model.` Make each input model a different attribute of that object.
+3. Refine the form so that pressing the "submit" button executes some simple function that's defined in the controller. For example, it could build an object using the inputted data and console log that object.
+4. Polish the form so that it's responsive to the user's input.  
+5. Make that function into an `$http` call that makes hits a route on the server-side.
+6. Create the functionality at the route that you're hitting.
+7. Get the data to actually store in a a database. You'll need to build a schema to enact this plan.
+
+Please feel free to reference previous notes.
+
+#### Payment form
+
+Build a responsive payment form that looks somewhat like the following:
+
+![image](https://cloud.githubusercontent.com/assets/6520345/23038703/d7630e4a-f43f-11e6-8fbc-3128d7aba220.png)
+
+and has these features:
+
+* While you're inputting values, the box around the form is red/orange. When your value is valid, the box around the form changes to be green.
+* When I type the first 4 digits of the card number, the card company displays on the fake card image.
+* As I type digits from my card, digits appear on the fake card image.
+* As I type the expiration date, it appears on the fake card image.
+* When I select the security code/CVC input box, the fake card image "flips over" and the digits I type appear on the back side of the card:
+
+![image](https://cloud.githubusercontent.com/assets/6520345/23038881/7e597a18-f440-11e6-81bf-8657c1d5c61f.png)
+
+#### Password Creation Widget
+
+Build a responsive password entry widget that looks something like the following:
+
+![image](https://cloud.githubusercontent.com/assets/6520345/23038960/b7c82920-f440-11e6-9332-7c230da918c2.png)
+
+and has these features:
+
+* Displays the password requirements and checks the boxes when the input satisfies those validations.
+* Adds a checkmark within the input box when it satisfies all requirements.
+* Has an orange/red color outline on the input while your password doesn't satisfy all of the requirements. The outline turns green only when all of the requirements are fulfilled
+* A password confirmation box that behaves similarly. It has an orange/red color outline while it doesn't match and a green outline when it does match your original password.
+
+#### Blog
+
+Build a blog entry page that allows a user to make a title and a multi-paragraph entry. It should have the following features:
+
+* Titles should be between 2 and 20 characters long.
+* While you're title is invalid, the box around the form is outlined with red/orange. While your value is valid, the box around the form changes to be green.
+* In the blog entry input box, pressing enter should create a new paragraph and *should not* submit the form.
+
+
+
+## Additional Resources for Review
+- the Angular [book app](https://github.com/sf-wdi-34/angular-services-training) and its solution branches.
+- the Angular [Cards against Assembly](https://github.com/sf-wdi-34/angular-custom-directives) lab and its solution.

@@ -4,13 +4,13 @@
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-Remember Angular?  How does it fit in with an express back end? What if you want to build a MEAN app for project 3?  Let's hit refresh on some skills and knowledge. 
+Remember Angular?  How does it fit in with an express back end? What if you want to build a MEAN app for project 3?  Let's hit refresh on some skills and knowledge.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- Explain how to use an Angular front end with a MEN back end. 
+- Explain how to use an Angular front end with a MEN back end.
 - Explain basic Angular setup and write examples of important built-in directives.
 - Identify key Angular concepts: directives, controllers, templates, services, client-side routing.
 
@@ -22,6 +22,23 @@ Remember Angular?  How does it fit in with an express back end? What if you want
 - Locate course materials to help use technologies we haven't talked about in a long time.
 - Give a detailed walkthrough of a MEN stack application.
 
+### Before we start...
+Open 5 tabs that will be helpful resources for talking about Angular and the MEAN stack.
+
+#### Consider the following statement
+
+*Ruby on Rails is superior to the MEAN stack because Ruby is a much more beautiful and feature-rich language than Javascript. Rails is designed to expedite development time because it has built in structures to facilitate CRUD and many other common web development tasks.*
+
+Take two minutes to write down your reaction.
+
+#### Now, consider the following statement
+
+*The MEAN stack is better than Rails because it is all JavaScript, the native language of the web.
+Node's built-in V8 JS engine makes the MEAN stack app far faster than a Ruby on
+Rails app. Angular creates dynamic, single page apps which are more intuitive to write
+than the `.erb` style templating of Rails apps.*
+
+Take two minutes to write down your reaction.
 
 
 ## MEAN
@@ -42,15 +59,13 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 * "Angular simplifies application development by presenting a higher level of abstraction to the developer"
 * "Not every app is a good fit for Angular. Angular was built with the CRUD application in mind."
 
-
-
 # `tunely-angular` app
 
 Let's review:
 
-- the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-31/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
-- the Angular [book app](https://github.com/sf-wdi-31/angular-services-training) and its solution branches
-- the Angular [Cards against Assembly](https://github.com/sf-wdi-31/angular-custom-directives) and its solution
+- the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-34/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
+- the Angular [book app](https://github.com/sf-wdi-34/angular-services-training) and its solution branches
+- the Angular [Cards against Assembly](https://github.com/sf-wdi-34/angular-custom-directives) and its solution
 
 
 This is a fully functional MEAN stack app.You'll be assigned a piece from within this list:
@@ -90,7 +105,7 @@ Let's investigate these pieces and answer the following questions:
 1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 
-Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing). 
+Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing).
 
 We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does... **BUT** this time we encourage you to engage an extra part of your brain as you explain. Drawing something, act something out, or invent a rhyme or jingle!
 
@@ -117,6 +132,6 @@ On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7b
 
 ## Lab
 
-Working in teams of 3, choose one of your demos that might benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.  When you have it running, add a breif readme that lists all the contributors and push it to GitHub. 
+Working in teams of 3, choose one of your demos that might benefit from a database. Get it running as a MEAN stack app. That is, at least serve the `index.html` file and any stylesheets, client-side scripts, or images from your own Express server.  When you have it running, add a brief readme that lists all the contributors and push it to GitHub.
 
 Please feel free to reference previous notes.   

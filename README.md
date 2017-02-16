@@ -102,7 +102,7 @@ Let's investigate these pieces and answer the following questions:
 1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 
-Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing).
+Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/1lJm6J23T_UqxdjrQEeaubLmukXMd0nC4GK-nB5gYFOw/edit?usp=sharing).
 
 We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does... **BUT** this time we encourage you to engage an extra part of your brain as you explain. Drawing something, act something out, or invent a rhyme or jingle!
 
@@ -124,7 +124,7 @@ Write a page to perform an example of two of the following angular directives.
 
 [Reviewing `tunely-angular` sprint 1](https://github.com/SF-WDI-31/tunely-angular/blob/master/docs/sprint1.md) may help to get your example set up.
 
-On the [google doc](https://docs.google.com/document/d/18GLWllJ8iatxnCe3fH1ixC7bKTTm0esmNm_mRjz9ZDg/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
+On the [google doc](https://docs.google.com/document/d/1lJm6J23T_UqxdjrQEeaubLmukXMd0nC4GK-nB5gYFOw/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
 
 ## Terminology and Concepts
 

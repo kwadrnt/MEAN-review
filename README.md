@@ -151,8 +151,8 @@ Follow this suggested "micro-sprint" structure:
 3. Refine the form so that pressing the "submit" button executes some simple function that's defined in the controller. For example, it could build an object using the inputted data and console log that object.
 4. Polish the form so that it's responsive to the user's input.  
 5. Make that function into an `$http` call that makes hits a route on the server-side.
-6. Create the functionality at the route that you're hitting.
-7. Get the data to actually store in a a database. You'll need to build a schema to enact this plan.
+6. In server.js create the functionality at the server-side route that you're hitting.
+7. Get the data to actually store in a database. You'll need to build a schema to enact this plan.
 
 Please feel free to reference previous notes.
 

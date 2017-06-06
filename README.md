@@ -63,7 +63,7 @@ From the [Angular Guide Introduction](https://docs.angularjs.org/guide/introduct
 
 Let's review:
 
-- the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-34/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
+- the MEAN stack [`tunely-angular` sprint 5 solutions branch](https://github.com/sf-wdi-37/tunely-angular/tree/solutions_sprint_5), sprint 5 solution
 
 This is a fully functional MEAN stack app.You'll be assigned a piece from within this list:
 
@@ -102,7 +102,7 @@ Let's investigate these pieces and answer the following questions:
 1. What 3-5 lines of code are difficult to understand at first glance? After a closer look, what does that code do?
 
 
-Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/1lJm6J23T_UqxdjrQEeaubLmukXMd0nC4GK-nB5gYFOw/edit?usp=sharing).
+Once you've written something out, taken the key screenshots (`cmd`+`shift`+ `4`), and gathered all the info you want to show us, please put your responses in this [google doc](https://docs.google.com/document/d/1baHa1_1RNApMIPhK9GH4rOu2GwUYVsHEuSSSZcfN_OI/edit).
 
 We'll each present 2-5 minutes on the piece we investigated to refresh the class on what it does... **BUT** this time we encourage you to engage an extra part of your brain as you explain. Drawing something, act something out, or invent a rhyme or jingle!
 

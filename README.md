@@ -124,7 +124,7 @@ Write a page to perform an example of two of the following angular directives.
 
 [Reviewing `tunely-angular` sprint 1](https://github.com/SF-WDI-31/tunely-angular/blob/master/docs/sprint1.md) may help to get your example set up.
 
-On the [google doc](https://docs.google.com/document/d/1lJm6J23T_UqxdjrQEeaubLmukXMd0nC4GK-nB5gYFOw/edit?usp=sharing), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
+On the [google doc](https://docs.google.com/document/d/1baHa1_1RNApMIPhK9GH4rOu2GwUYVsHEuSSSZcfN_OI/edit), include at least two screen shots that display the evidence that your directives are functioning. Include two or more sentences explaining why these screenshots are evidence of the directives you selected.
 
 ## Terminology and Concepts
 
